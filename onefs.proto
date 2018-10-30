@@ -1,0 +1,7 @@
+isyntax = "proto3";
+
+message OneVoice {
+    string sid    = 1;
+    string format = 2;
+    bytes  voice  = 3;
+}
