@@ -1,6 +1,6 @@
-isyntax = "proto3";
+syntax = "proto3";
 
-message OneVoice {
+message voice {
     string sid    = 1;
     string format = 2;
     bytes  voice  = 3;

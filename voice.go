@@ -1,9 +1,13 @@
 package onefs
 
-import "fmt"
+type voice struct {
+	voice  []byte
+	pading []byte
+	crc    uint64
+}
 
-type index struct {
-	key    uint64
-	offset uint32
-	size   uint32
+func (v *voice) marshal() {
+}
+
+func (v *voice) unmarshal() {
 }
